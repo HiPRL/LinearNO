@@ -1,0 +1,19 @@
+python exp_darcy.py \
+--model conv_temp \
+--gpu 7 \
+--n-hidden 128 \
+--n-heads 8 \
+--n-layers  8 \
+--lr 0.001 \
+--max_grad_norm 1 \
+--weight_decay 0.000001 \
+--batch-size 4 \
+--key_ratio 64 \
+--unified_pos 0 \
+--mlp_ratio 1 \
+--ref 8 \
+--eval 1 \
+--downsample 5 \
+--save_name darcy_LinearAttnNeuralOperator \
+--data_path PDE_dataset/benchmark/fno \
+

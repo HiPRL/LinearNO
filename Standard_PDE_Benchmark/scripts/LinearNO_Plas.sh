@@ -1,0 +1,17 @@
+python exp_plas.py \
+--gpu 7 \
+--model conv \
+--n-hidden 128 \
+--n-heads 8 \
+--n-layers 8 \
+--lr 0.001 \
+--max_grad_norm 1 \
+--weight_decay 0.000001 \
+--batch-size 8 \
+--key_ratio 64 \
+--mlp_ratio 1 \
+--unified_pos 0 \
+--ref 8 \
+--eval 1 \
+--save_name plas_LinearAttnNeuralOperator \
+--data_path PDE_dataset/benchmark/plasticity 
