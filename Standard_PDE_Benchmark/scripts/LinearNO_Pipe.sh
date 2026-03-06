@@ -1,0 +1,17 @@
+python exp_pipe.py \
+--model conv_temp \
+--gpu 7 \
+--n-hidden 128 \
+--n-heads 8 \
+--n-layers 8 \
+--mlp_ratio 1 \
+--lr 0.001 \
+--weight_decay 0.00001 \
+--max_grad_norm 1 \
+--batch-size 4   \
+--key_ratio 64 \
+--unified_pos 0 \
+--ref 8 \
+--eval  1 \
+--save_name pipe_LinearAttnNeuralOperator \
+--data_path PDE_dataset/benchmark/pipe \
