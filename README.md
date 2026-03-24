@@ -38,11 +38,14 @@ For quickly evaluating, you can find the checkpoints at [Google Cloud](https://d
 If you find our work helpful, feel free to give us a cite.
 
 ```
-@article{hu2025transolver,
-  title={Transolver is a Linear Transformer: Revisiting Physics-Attention through the Lens of Linear Attention},
+@inproceedings{hu2026transolver,
+  title={Transolver is a linear transformer: Revisiting physics-attention through the lens of linear attention},
   author={Hu, Wenjie and Liu, Sidun and Qiao, Peng and Sun, Zhenglun and Dou, Yong},
-  journal={arXiv preprint arXiv:2511.06294},
-  year={2025}
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  volume={40},
+  number={1},
+  pages={408--416},
+  year={2026}
 }
 ```
 # Contact 
